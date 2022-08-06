@@ -80,7 +80,7 @@ about_product:
       content : "Descarga nuestro catálogo."
       button:
         enable : true
-        label : "Bajar Catalogo"
+        label : "Consulta nuestro catálogo"
         link : "https://github.com/rogithub/papeleria/blob/master/static/docs/biografia-monografia.csv"
     
 
