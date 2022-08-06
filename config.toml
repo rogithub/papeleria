@@ -1,0 +1,115 @@
+################################### Default Configuration ############################
+baseURL = "https://rogithub.github.io/papeleria/"
+title = "Papelería 'El Gordo'"
+enableRobotsTXT = true
+theme = "vex-hugo"
+# post excert
+summarylength = "20"
+# google analytics
+googleAnalytics = "G-PHBLL6YP7Q" # Ex: UA-123-45
+# disable language
+disableLanguages = [] # disable language from here
+defaultContentLanguage = "es"
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+#################################### Plugins ##########################################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+[[params.plugins.css]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
+[[params.plugins.css]]
+link = "custom.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
+[[params.plugins.js]]
+link = "plugins/qr/qrcode.min.js"
+
+
+###################################### Navigation ######################################
+
+# homepage section menu
+[[menu.main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Productos"
+url = "products"
+weight = 2
+
+[[menu.main]]
+name = "Contacto"
+url = "contact"
+weight = 3
+
+# footer menu
+[[menu.footer]]
+name = "Contacto"
+url = "contact"
+weight = 2
+
+[[menu.footer]]
+name = "Terms & Conditions"
+url = "terms-conditions"
+weight = 3
+
+[[menu.footer]]
+name = "Privacy Policy"
+url = "privacy-policy"
+weight = 4
+
+
+########################### Default parameters ##########################
+[params]
+logo = "images/rosa.png"
+logo_width = "35px"
+# Meta data
+description = "confección hotelería restaurantes playa del carmen"
+author = "romx"
+# currency
+currency = "$"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# snipcart public api key
+snipcart_api = "NzkwNWZlNmEtY2RjNi00NmFhLWI5YzUtZmRjMTU3YTIyN2EzNjM3NTc0NjQzMzkwMzY0OTEz"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# Subscription
+[params.subscription]
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+
+################################### Spanish language #####################################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-mx"
+contentDir = "content/spanish"
+weight = 1
+# copyright
+copyright = "Diseño y desarrollo de sitios web [Ing. Rodrigo Jiménez](https://rogithub.github.io/)"

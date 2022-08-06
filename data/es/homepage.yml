@@ -1,0 +1,90 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "Papelería 'El Gordo'"
+  content : "Playa del Carmen. Quintana Roo, México."
+  image : "images/gordo.jpg"
+  button:
+   enable : true
+   label : "Productos"
+   link : "products"
+
+############################# Feature ############################
+# incon sets
+# https://themefisher.github.io/themefisher-font/
+features:
+  enable : true
+  title : "Copias e impresiones blanco y negro y a color"
+  image : "images/impresora.jpeg"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Wifi gratis"
+    icon : "tf-ion-ios-chatbubble-outline"
+    content : "Tenemos wifi gratis listo para que nos envies tus documentos a imprimir"
+    
+    # feature item loop
+  - title : "Ambos lados"
+    icon : "tf-ion-ios-book-outline"
+    content : "Impresion por ambas caras de la hoja"
+    
+    # feature item loop
+  - title : "Precio"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Precios competitivos sin sacrificar calidad"
+
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Escaneo"
+    icon : "tf-focus"
+    content : "Escaneo tamaño carta y oficio, ampliaciones y reducciones"
+
+    # feature item loop
+  - title : "Impresión de fotografías"
+    icon : "tf-ion-ios-camera-outline"
+    content : "Impresion láser en papel fotográfico a todo color"
+
+    # feature item loop
+  - title : "Nos adaptamos"
+    icon : "tf-ion-ios-printer-outline"
+    content : "Aceptamos tus trabajos por wifi, memoria, whats app, email, etc."
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/ubicacioncc.png"
+  title : "Cómo llegar"
+  content : "Estamos super cerca, en la zona de Villas del Sol/Palmas Turqueza. Si tienes dudas, mándanos un whatsapp 452 201 8336"
+
+
+############################# About Product #######################
+about_product:
+  enable : true
+  title : "Servicios"
+  items:
+    # about product item loop
+    - image : "images/pgeneral.webp"
+      title : "Papelería en general."
+      content : "Cuadernos, borradores, sacapúntas, material escolar, decorativo, juegos de geometría, stickers, ..."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+    - image : "images/monografia.jpg"
+      title : "Monografías y Biografías."
+      content : "Descarga nuestro catálogo."
+      button:
+        enable : true
+        label : "Bajar Catalogo"
+        link : "docs/monografia_biografia.pdf"
+
+#################################### Products ########################
+products:
+  enable : true
+  title : "Productos"
+
