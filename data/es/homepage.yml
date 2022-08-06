@@ -81,7 +81,7 @@ about_product:
       button:
         enable : true
         label : "Bajar Catalogo"
-        link : "docs/monografia_biografia.pdf"
+        link : "https://github.com/rogithub/papeleria/blob/master/static/docs/biografia-monografia.csv"
     
 
 #################################### Products ########################
