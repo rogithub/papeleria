@@ -32,7 +32,7 @@ features:
     # feature item loop
   - title : "Precio"
     icon : "tf-ion-ios-cart-outline"
-    content : "Precios competitivos sin sacrificar calidad"
+    content : "Tamaño carta: Impresion b/n $1, impresóin color trabajos escolares $3, fotos grandes a color $12"
 
 
   # feature at the right of the image
@@ -43,12 +43,12 @@ features:
     content : "Escaneo tamaño carta y oficio, ampliaciones y reducciones"
 
     # feature item loop
-  - title : "Impresión de fotografías"
+  - title : "Impresión en papeles especiales"
     icon : "tf-ion-ios-camera-outline"
-    content : "Impresion láser en papel fotográfico a todo color"
+    content : "Papel fotográfico, opalina, diplomas a todo color"
 
     # feature item loop
-  - title : "Nos adaptamos"
+  - title : "Mandanos tu trabajo"
     icon : "tf-ion-ios-printer-outline"
     content : "Aceptamos tus trabajos por wifi, memoria, whats app, email, etc."
 
@@ -67,13 +67,13 @@ about_product:
   title : "Servicios"
   items:
     # about product item loop
-    - image : "images/pgeneral.webp"
-      title : "Papelería en general."
-      content : "Cuadernos, borradores, sacapúntas, material escolar, decorativo, juegos de geometría, stickers, ..."
+    - image : "images/catalogo.jpg"
+      title : "Consulta nuestro catálogo de productos."
+      content : "Nuestros productos en tienda."
       button:
-        enable : false
-        label : "Check Features"
-        link : "#"
+        enable : true
+        label : "Abrir"
+        link : "products"
 
     - image : "images/monografia.jpg"
       title : "Monografías y Biografías."
@@ -82,9 +82,10 @@ about_product:
         enable : true
         label : "Bajar Catalogo"
         link : "docs/monografia_biografia.pdf"
+    
 
 #################################### Products ########################
 products:
-  enable : true
+  enable : false
   title : "Productos"
 
