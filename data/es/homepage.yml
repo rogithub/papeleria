@@ -32,7 +32,7 @@ features:
     # feature item loop
   - title : "Precio"
     icon : "tf-ion-ios-cart-outline"
-    content : "Tamaño carta: Impresion b/n $1, impresóin color trabajos escolares $3, fotos grandes a color $12"
+    content : "Tamaño carta: impresión b/n $1, impresión color trabajos escolares $3, fotos grandes a color $12"
 
 
   # feature at the right of the image
