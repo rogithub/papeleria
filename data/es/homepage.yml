@@ -64,7 +64,7 @@ promo:
 ############################# About Product #######################
 about_product:
   enable : true
-  title : "Servicios"
+  title : "Artículos de papelería"
   items:
     # about product item loop
     - image : "images/catalogo.jpg"
