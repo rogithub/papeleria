@@ -1,6 +1,6 @@
 ---
 title: "JUEGO DE GEOMETRIA"
-date: 2022-08-11T18:40:27.3199315-05:00
+date: 2022-08-12T17:03:21.6364392-05:00
 images:
   - "images/showcase/c6aa1daa-c53f-42ba-9d6f-40662fb2afdd_e26e249f-ea6b-4dea-af06-9a0d550d51ea.webp"
 description: "JUEGO DE GEOMETRIA"
