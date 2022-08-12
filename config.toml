@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseURL = "https://rogithub.github.io/papeleria/"
+baseURL = "https://papeleria.xplaya.com/"
 title = "Papelería 'El Gordo'"
 enableRobotsTXT = true
 theme = "vex-hugo"
