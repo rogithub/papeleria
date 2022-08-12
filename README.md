@@ -1,3 +1,3 @@
 # web page for:
-https://papeleria.xplaya.com/
+https://rogithub.github.io/papeleria/
 
