@@ -11,7 +11,7 @@ RUN hugo
 
 RUN mv ./public /var/www/html/
 
-RUN cp ./default /etc/nginx/sites-enabled/default
+RUN mv ./default /etc/nginx/sites-enabled/default
 
 
 CMD ["nginx", "-g", "daemon off;"]
